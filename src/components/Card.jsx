@@ -10,7 +10,7 @@ function Card() {
         <div className="info">
           <h1>Name: Coco</h1>
           <h1>Surname: Drilo</h1>
-          <h2>Job: Laughing with Artem</h2>
+          <h2>Job: Laugh with Artem</h2>
         </div>
       </div>
     </>

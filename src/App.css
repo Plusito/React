@@ -1,17 +1,13 @@
-.card {
-  display: flex;
-  border: 3px rgb(60, 151, 68) solid;
+.product {
+  border: 3px rgb(52, 150, 255) solid;
   border-radius: 7px;
-  background-color: rgb(84, 84, 87);
+  background-color: rgb(117, 207, 255);
   padding-right: 50px;
 }
 
-.image {
-  height: 300px;
-}
-
 .info {
-  padding-left: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 body {
