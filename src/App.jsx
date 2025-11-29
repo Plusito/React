@@ -1,14 +1,33 @@
 import "./App.css";
-import Product1 from "./Lista de productos/Product1";
-import Product2 from "./Lista de productos/Product2";
-import Product3 from "./Lista de productos/Product3";
+import ListOfProducts from "./Lista de productos/Lista de Prods";
+
+const list = [
+  {
+    name: "tomato",
+    price: "1",
+    description: "is a red ball",
+  },
+  {
+    name: "Carrot",
+    price: "555 ",
+    description: "Long orange thing",
+  },
+  {
+    name: "Broccoli",
+    price: "3",
+    description: "Green small tree",
+  },
+  {
+    name: "Test Product",
+    price: "33",
+    description: "I DONT KNOW WHAT IS A small tree",
+  },
+];
 
 function App() {
   return (
     <>
-      <Product1 />
-      <Product2 />
-      <Product3 />
+      <ListOfProducts list={list} />
     </>
   );
 }
