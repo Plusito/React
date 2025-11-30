@@ -3,15 +3,16 @@ import Menu from "./Menu/menu";
 
 const menu = [
   {
-    text: "youtube",
+    text: "Youtube",
     link: "https://youtube.com",
+    imge: <img src="" alt="" />,
   },
   {
-    text: "git hub",
+    text: "Git Hub",
     link: "https://github.com",
   },
   {
-    text: "chess",
+    text: "Chess",
     link: "https://chess.com",
   },
 ];

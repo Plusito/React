@@ -1,8 +1,10 @@
 function Enlace({ text, link }) {
   return (
-    <>
-      <a href={link}>{text}</a>
-    </>
+    <div className="link">
+      <a className="text" href={link}>
+        {text}
+      </a>
+    </div>
   );
 }
 

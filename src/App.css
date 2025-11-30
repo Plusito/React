@@ -5,6 +5,10 @@
   padding-right: 50px;
 }
 
+.image {
+  height: 30px;
+}
+
 .info {
   padding-left: 20px;
   padding-right: 20px;
@@ -13,4 +17,18 @@
 body {
   display: flex;
   justify-content: center;
+}
+
+.link {
+  border: 3px rgb(0, 122, 41) solid;
+  border-radius: 7px;
+  background-color: rgb(117, 255, 154);
+  padding-right: 50px;
+}
+
+.text {
+  font-style: italic;
+  font-size: larger;
+  padding-left: 80px;
+  padding-right: 40px;
 }
