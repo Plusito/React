@@ -1,33 +1,25 @@
 import "./App.css";
-import ListOfProducts from "./Lista de productos/Lista de Prods";
+import Menu from "./Menu/menu";
 
-const list = [
+const menu = [
   {
-    name: "tomato",
-    price: "1",
-    description: "is a red ball",
+    text: "youtube",
+    link: "https://youtube.com",
   },
   {
-    name: "Carrot",
-    price: "555 ",
-    description: "Long orange thing",
+    text: "git hub",
+    link: "https://github.com",
   },
   {
-    name: "Broccoli",
-    price: "3",
-    description: "Green small tree",
-  },
-  {
-    name: "Test Product",
-    price: "33",
-    description: "I DONT KNOW WHAT IS A small tree",
+    text: "chess",
+    link: "https://chess.com",
   },
 ];
 
 function App() {
   return (
     <>
-      <ListOfProducts list={list} />
+      <Menu links={menu} />
     </>
   );
 }
