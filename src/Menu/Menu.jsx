@@ -3,8 +3,8 @@ import Enlace from "./Enlace";
 function Menu({ links }) {
   return (
     <>
-      {links.map((e) => (
-        <Enlace link={e.link} text={e.text} imge={e.imge} />
+      {links.map((e, i) => (
+        <Enlace key={i} link={e.link} text={e.text} imge={e.imge} />
       ))}
     </>
   );
