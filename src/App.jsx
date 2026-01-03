@@ -4,7 +4,6 @@ import { useState } from "react";
 
 function App() {
   const [text, setText] = useState("");
-
   const [massive, setMassive] = useState([
     {
       autor: "Daniel",
@@ -41,6 +40,10 @@ function App() {
     setText("");
   }
 
+  function deleteLastComment() {
+    setMassive(massive.slice(0, -1));
+  }
+
   return (
     <>
       <ListaDeComentarios list={massive} />
@@ -51,7 +54,8 @@ function App() {
           value={text}
           onChange={(e) => setText(e.target.value)}
         ></textarea>
-        <button onClick={addComment}>add</button>
+        <button onClick={addComment}>Add</button>
+        <button onClick={deleteLastComment}>Delete Last Comment</button>
       </div>
     </>
   );
